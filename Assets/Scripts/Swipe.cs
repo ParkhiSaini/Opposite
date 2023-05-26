@@ -54,18 +54,18 @@ public class Swipe : MonoBehaviour
 
             if(Mathf.Abs(x)>Mathf.Abs(y)){
                 if(x < 0){
-                    swipeLeft = true;
+                    swipeRight = true;
                 }
                 else{
-                    swipeRight = true;
+                    swipeLeft = true;
                 }
             }
             else{
                 if(y < 0){
-                    swipeDown = true;
+                    swipeUp= true;
                 }
                 else{
-                    swipeUp = true;
+                    swipeDown = true;
                 }
             }
             Reset();
